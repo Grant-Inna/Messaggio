@@ -24,7 +24,7 @@
 
 
 #features {
-    background-color: rgba(230, 227, 234, .8);
+    background-color: rgba(230, 227, 234, 1);
 }
 
 .featuresContainer {
@@ -34,13 +34,29 @@
 .footer-one {
     padding-top: 40px;
 }
-
+.bg-grad-stellar {
+        background: rgba(40, 94, 132, 1);
+        background: -webkit-linear-gradient(-45deg, #7474BF, rgba(40, 94, 132, 1));
+        background: -o-linear-gradient(-45deg, #7474BF, rgba(40, 94, 132, 1));
+        background: -moz-linear-gradient(-45deg, #7474BF, rgba(40, 94, 132, 1));
+        background: linear-gradient(-45deg, #7474BF, rgba(40, 94, 132, 1));
+    /*background-color: rgba(40, 94, 132, 1);*/
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
 .bg-grad-stellar__world {
-    background-color: rgba(79, 56, 117, 0.7);
-
+    background-color: rgba(79, 56, 117, 1);
+    background: -webkit-linear-gradient(-45deg, #7474BF, rgba(79, 56, 117, 1));
+    background: -o-linear-gradient(-45deg, #7474BF, rgba(79, 56, 117, 1));
+    background: -moz-linear-gradient(-45deg, #7474BF, rgba(79, 56, 117, 1));
+    background: linear-gradient(-45deg, #7474BF, rgba(79, 56, 117, 1));
 }
 .bg-grad-stellar__contact {
-    background-color: rgba(102, 151, 175, 0.7);
+    background-color: rgba(102, 151, 175, 1);
+    background: -webkit-linear-gradient(-45deg, #7474BF, rgba(102, 151, 175, 1));
+    background: -o-linear-gradient(-45deg, #7474BF, rgba(102, 151, 175, 1));
+    background: -moz-linear-gradient(-45deg, #7474BF, rgba(102, 151, 175, 1));
+    background: linear-gradient(-45deg, #7474BF, rgba(102, 151, 175, 1));
 }
 
 @media (max-width: 1200px) {
@@ -66,5 +82,15 @@
         float: none;
     }
 
+
+}
+
+
+.navbar__logo {
+    height: 50px;
+    width: 150px;
+    background: url("../../img/logo/logo.jpg") center no-repeat;
+    background-size: contain;
+    border-radius: 6px;
 
 }
