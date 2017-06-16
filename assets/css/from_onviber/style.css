@@ -1,0 +1,70 @@
+/* ============   FROM ONVIBER ============ */
+.border-cyan {
+    border-color: #1abc9c !important;
+}
+
+.content-box span, .content-box.content-box-icon-o i, .content-box.content-box-icon-o-circle span, .content-box.content-box-icon-o-circle i {
+    border: 1px solid;
+}
+
+.col-md-4,
+.col-sm-6,
+.col-sx-12 {
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+
+
+.needFlexBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#features {
+    background-color: rgba(230, 227, 234, .8);
+}
+
+.featuresContainer {
+    padding-top: 50px;
+}
+
+.footer-one {
+    padding-top: 40px;
+}
+
+.bg-grad-stellar__world {
+    background-color: rgba(79, 56, 117, 0.7);
+
+}
+.bg-grad-stellar__contact {
+    background-color: rgba(102, 151, 175, 0.7);
+}
+
+@media (max-width: 1200px) {
+    .navbar-toggle {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 765px) {
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+        margin: 0 auto;
+    }
+    .col-sx-12,
+    .col-xs-12{
+        margin: 0 auto;
+    }
+    .content-box.content-box-center {
+        margin: 0 auto;
+    }
+    .content-box {
+        float: none;
+    }
+
+
+}
